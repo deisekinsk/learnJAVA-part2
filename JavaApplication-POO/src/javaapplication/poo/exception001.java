@@ -7,7 +7,7 @@ package javaapplication.poo;
  */
  import java.io.IOException;
 public class exception001 {
-
+//use throws clause
   void m() throws IOException{
   throw new IOException("Error!");
   }
@@ -24,7 +24,7 @@ public class exception001 {
   }
   
   }
-
+//
   public static void main(String Arg[]){  
    exception001 obj=new exception001();  
    obj.p();  
