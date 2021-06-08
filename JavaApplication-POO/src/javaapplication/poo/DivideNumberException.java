@@ -27,7 +27,7 @@ public class DivideNumberException {
         }
         catch (ArithmeticException erro){
             System.out.println(erro);
-            System.out.println("Number invalid. Insert again.");
+            System.out.println("Number invalid.");
         }
     }
     
