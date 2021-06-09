@@ -30,6 +30,9 @@ public class DivideNumberException {
             System.out.println(erro);
             System.out.println("Number invalid.");
         }
+        finally{
+            System.out.println("Erro! Não foi possível executar o programa.");
+        }
     }
     
 }
