@@ -8,6 +8,7 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class DivideNumberException {
+    //throws - ArithmeticException
     public static int calculate (int numA, int numB) throws ArithmeticException{
         return numA/numB;
     }
