@@ -22,16 +22,16 @@ public class exception002 {
         
        System.out.println("End of MAIN");
     }
-    
+    //insert exceptions
     static void runTheException(String test) throws personalException{
     
     System.out.println("START the personal exception. ");
         if("yes".equals(test)){
+            //
             throw new personalException();
         }
         System.out.println("END the personal exception.");
-        return;
-        
+             
             
     }
 }
