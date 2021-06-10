@@ -30,7 +30,8 @@ public class exception002 {
             throw new personalException();
         }
         System.out.println("END the personal exception.");
-        return;        
+        return;
+        
             
     }
 }
