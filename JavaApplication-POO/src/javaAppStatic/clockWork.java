@@ -30,6 +30,18 @@ public class clockWork {
         return locationName;
     }
     
+    public int getHour(){
+        return hour;
+    }
+    
+    public int getMinute(){
+        return minute;
+    }
+    
+    public int getSeconds(){
+        return seconds;
+    }
+    
     //SET    
     public void setId(int id){
         this.id = id;
@@ -38,7 +50,19 @@ public class clockWork {
     public void setId(String locationName){
         this.locationName = locationName;
     }
-      
+    
+    public void setHour(int hour){
+    this.hour = hour;
+    }
+    
+    public void setMinute(int minute){
+    this.minute = minute;
+    }
+    
+    public void setSeconds(int seconds){
+    this.seconds = seconds;
+    }
+
     
 }
 
