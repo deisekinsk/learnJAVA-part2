@@ -5,6 +5,7 @@ package javaAppAbstractClass;
  *
  * @author Deise Kinsk
  */
-public class abstractImage {
+public abstract class abstractImage {
     
+    abstract public void draw();
 }
